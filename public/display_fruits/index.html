@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="body">
+        <div id="header">
+            <h1 id="page-title">Fruits</h1>
+            <div>
+                <input type="search" name="name" id="search-input" placeholder="e.g. kale">
+                <input type="submit" value="Search" id="search-btn">
+            </div>
+
+        </div>
+
+        <nav id="navbar">
+            <h2 id="homepage-button">Home</h2>
+            <h2 id="veggie-page-button">Veggies</h2>
+        </nav>
+        <p id="upload-status"></p>
+
+        <div id="fruit-name">
+
+        </div>
+        <div id="container" class="form">
+            <div class="input-container">
+                <label for="name-input">Name</label>
+                <input type="text" id="name-input" />
+            </div>
+            <div class="input-container">
+                <label for="color-input">Color</label>
+                <input type="text" id="color-input" />
+            </div>
+            <div class="input-container">
+                <label for="age-input">Age</label>
+                <input type="number" id="age-input" />
+            </div>
+            <div class="input-container">
+                <select name="ready-to-eat" id="ready-bool">
+                    <option value=true>Ready To Eat</option>
+                    <option value=false>Not Ready</option>
+                </select>
+            </div>
+            <input id="submit-button" class='input-container' type="submit" value="Add fruit">
+        </div>
+    </div>
+</body>
+
+</html>
