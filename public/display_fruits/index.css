@@ -3,9 +3,21 @@
     margin: 0;
 }
 
+img {
+    object-fit: cover;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    filter: contrast(1.2);
+    z-index: 0;
+}
+
 #body {
-    max-width: 800px;
+    position: relative;
+    max-width: 1000px;
     margin: auto;
+    z-index: 1;
+
 }
 
 #container {
